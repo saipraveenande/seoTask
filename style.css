@@ -1,0 +1,363 @@
+body{
+    margin: 0px;
+}
+/* -------Header Start------- */
+header{
+    color: black;
+    display: flex;
+    justify-content:space-around;
+}
+.logo{
+    width: 180px;
+    padding: 20px 10px;
+}
+header nav{
+    display: inline-block;
+}
+nav li{
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: 200;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+nav a{
+    text-decoration: none;
+    color: #222;
+}
+.header_button{
+    background-color: #035596;
+    padding: 8px;
+    color: white;
+    border: 1px solid #035596;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.header_button:hover{
+    background-color: white;
+    border: 1px solid #035596;
+    color: #035596;
+    cursor: pointer;
+}
+/* -------header End------- */
+
+/* -------Footer Start------- */
+.footer-column{
+    margin: 20px 0;
+    width: 23%;
+    display: inline-block;
+    justify-content: space-between;
+    border-right: 1px solid #777;
+}
+.footer-column:last-child{
+    border-right: 0px;
+}
+.footer-row{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-column a .logo{
+    width: 85%;
+    padding: 20px 10px;
+}
+.footer-column h2{
+    margin-left:25px;
+    font-family: Calibri;
+}
+.footer-column a, .footer-column p{
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    margin-left: 16px;  
+    padding: 5px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.copyrights{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0px;
+}
+/* -------Footer End------- */
+
+/* -------Index page ------- */
+.banner{
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+.banner div{
+    display: flex;
+    width: 50%;
+    float: left;
+}
+.banner-img{
+    margin-top: 40px;
+    width: 100%;
+}
+.banner .content{
+    display: block;
+    position: relative;
+    left: 10%;
+}
+.banner .content h1{
+    margin-top: 20%;
+    font-size: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.banner .content p{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+}
+/* ------3 chords------ */
+.chords3{
+    margin: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.chords3-heading{
+    text-align: center;
+}
+.chords3-heading h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.chords-section{
+    display: flex;
+    justify-content: space-around;
+}
+.chords{
+    border: 1px solid #035596;
+    border-radius: 8px;
+    width: 22%;
+}
+.chords .domains{
+    background-color: #035596;
+    color: WHITE;
+    display: inline;
+    cursor: pointer;
+    padding: 5px 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    margin: 5px;
+    position: relative;
+    top: 10px;
+}
+.chords .package{
+    text-align: center;
+}
+.chords .price{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.chords .price span{
+    font-size: 18px;
+    font-weight: lighter;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.chords ul li{
+    margin: 10px 0px;
+}
+.chords .small-info{
+ margin: 10px;
+ line-height: 25px;
+}
+.chords .all-features{
+    text-align: center;    
+}
+.chords .chord-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.chords .chord-buttons button{
+    background-color: #035596;
+    border: 1px solid #035596;
+    border-radius: 4px;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+/* pricing Plans */
+.pricing{
+    margin: 40px 10px;
+    font-family: Arial, Helvetica, sans-serif;   
+    display: flex;
+    justify-content: space-evenly;
+}
+.pricing .pricing-plans{
+    width: 45%;    
+}
+.pricing .pricing-plans img{
+    width: 90%;
+}
+.pricing .pricing-plans .whyAngadie{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+/* About Us */
+.aboutUsBanner h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.banner-img{
+    width: 100%;
+    height: auto;
+}
+.aboutUsText{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin: 30px 20%;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* ----Contact form---- */
+.contact{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+.form{
+    background-color:#C7E3FA;
+    width: 70%;
+    border: 1px solid #035596;
+    border-radius: 5px;
+    text-align: center;
+}
+.form h1{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin: 45px 0px 15px;
+    letter-spacing: 3px;
+}
+.form p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.form div #textInput{
+    margin-left: 60px;
+    margin-bottom: 30px;
+    border: 0;
+    background-color: #fff;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 40%;
+}
+.form div #textSubmit{
+    position: relative;
+    background-color: #035596;
+    left: -12%;
+    color: white;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* -------Features------------- */
+.features{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.features .features-head{
+    text-align: center;
+}
+.featuresList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px;  
+
+}
+.featuresList .listing-features{
+    border: 1px solid #035596;
+    border-radius: 8px;
+    height: auto;
+    width: 25%;
+    
+}
+.featuresList .listing-features img{
+    width: 80px;
+    border: 1px solid #CDDDEA;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0px 0px 10px;
+}
+.featuresList .listing-features img:hover{
+    transform: scale(1.2);
+    border: 1px solid white;
+    cursor: pointer;
+}
+.featuresList .listing-features h3{
+    margin-left: 10px;
+}
+.featuresList .listing-features p{
+    margin-left: 10px;
+}
+/* ------themes---------- */
+.themes .listing-features{
+    width: 27%;
+    height: 100vh;
+    overflow: hidden;
+}
+.themes .listing-features img{
+    width: 90%;
+    border: none;
+    align-items: center;
+    transform: scale(1);
+    margin: 0px;
+}
+.themes .listing-features img:hover{
+    transform: scale(1.1);
+}
+.themes .listing-features h3{
+    position: relative;
+    bottom: 10px;
+    display: block;
+    background-color: #CDDDEA;
+    position: sticky;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2px;
+    bottom: 0px;
+}
+
+/* --------Testing----------- */
+.header_button{
+    background-color: #035596;
+    padding: 8px;
+    color: white;
+    border: 1px solid #035596;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+    .logo{
+        width: 90px;
+        padding: 10px 5px;
+    }
+    header nav{
+        display: inline-block;
+        background-color: aliceblue;
+    }
+    nav li{
+        font-size: 13px;
+        display: block;
+        margin: 5px;
+    }
+    .header_button{
+        display: none;
+    }
+}

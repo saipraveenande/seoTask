@@ -1,0 +1,162 @@
+<!-- Create Responsive static website
+5 pages (Home, About Us, Contact Us, Portfolio, Features)
+      Header and Footer - common for all pages
+      Homepage - Banner image and overlap content, 3 cards div, left content right image one div
+      About Us - Banner image and overlap content, content paragraph tag design 
+      Contact - Form, HTML5 validation, iframe, Address Paragraph
+      Portfolio - Banner image and overlap content, Content Paragraph, image with content separate div’s
+      Features - Banner, company features image, content with separate cards for each and every feature
+       -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://angadie.com/assets/landlord/uploads/media-uploader/angadi-ecom-logo-21693018836.svg" type="image/png">
+    <title>Angadi Ecom</title>
+</head>
+<body>
+    <header>
+        <nav><a href="#"><img class="logo" src="images/angadi-ecom-logo.jpg" alt="angadie.com"></a></nav>
+        <nav>
+            <ul type="none">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Themes</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <button class="header_button">Get Started</button>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <div class="content">
+            <h1>Build your <br/>eCommerce Store <br/>in Minutes</h1>
+            <p>Cheap and Quick: Launch Your Online Store Today</p>
+            <button class="header_button">Start Free Trial</button>
+        </div>
+        <div>
+            <img class="banner-img" src="images/build-your-e-commerce.jpeg" alt="jpeg of ecommerse store">
+        </div>
+    </div>
+
+    <div class="chords3">
+        <div class="chords3-heading">
+            <h1>Pricing Plans</h1>
+            <p>Select the perfect plan to supercharge your online success</p>
+        </div>
+        <div class="chords-section">
+            <div class="chords">
+                <p class="domains">Free Sub-Domain</p>
+                <p class="package">BASIC</p>
+                <p class="price">&#x20B9; 667 <span>/month</span></p>
+                <ul type="none">
+                    <li>Page 50</li>
+                    <li>Product 50</li>
+                    <li>Blog 50</li>
+                    <li>Storage 500 MB</li>
+                </ul>
+                <p class="small-info">Ideal for small businesses and startups looking to establish an online presence </p>
+                <p class="all-features"><a href="https://angadie.com/plan-order/1">View All Features</a></p>
+                <div class="chord-buttons">
+                    <button>Buy Now</button>
+                    <button>Try Now</button>
+                </div>
+            </div>
+            <div class="chords">
+                <p class="domains">Custom Domain</p>
+                <p class="package">PRO</p>
+                <p class="price">&#x20B9; 1,167 <span>/month</span></p>
+                <ul type="none">
+                    <li>Page Unlimited</li>
+                    <li>Product Unlimited</li>
+                    <li>Blog Unlimited</li>
+                    <li>Storage 5000 MB</li>
+                </ul>
+                <p class="small-info">Designed for businesses that want to showcase a wider range of products with their own branding</p>
+                <p class="all-features"><a  href="https://angadie.com/plan-order/2">View All Features</a></p>
+                <div class="chord-buttons">
+                    <button>Buy Now</button>
+                    <button>Try Now</button>
+                </div>
+            </div>
+            <div class="chords">
+                <p class="domains">Web+Apps(Android+IOS)</p>
+                <p class="package">PREMIUM</p>
+                <p class="price">&#x20B9; 3,333 <span>/month</span></p>
+                <ul type="none">
+                    <li>Page Unlimited</li>
+                    <li>Product Unlimited</li>
+                    <li>Blog Unlimited</li>
+                    <li>Storage Unlimited</li>
+                </ul>
+                <p class="small-info">Perfect for larger enterprises or ambitious e-commerce ventures aiming for a comprehensive online shopping experience</p>
+                <p class="all-features"><a href="https://angadie.com/plan-order/3">View All Features</a></p>
+                <div class="chord-buttons">
+                    <button>Buy Now</button>
+                    <button>Try Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="pricing">
+        <div class="pricing-plans">
+            <img src="images/angadi-price-chart.png" alt="Andgadi Ecom price chart">
+        </div>
+        <div class="pricing-plans">
+            <div class="whyAngadie">
+                <h1>Why Angadi Ecom?</h1>
+                <p>Celebrate the freedom to build your dream online store with confidence</p>
+            </div>
+            <div>
+                <div class="reasons">
+                    <h2>User-Friendly Platform</h2>
+                    <p>Our intuitive interface makes it easy for anyone to set up and manage their online store, no technical expertise required.</p>
+                </div>
+                <div class="reasons">
+                    <h2>Secure Transactions</h2>
+                    <p>Rest easy with robust security features, ensuring safe and trustworthy transactions for both you and your customers.</p>
+                </div>
+                <div class="reasons">
+                    <h2>Affordable Pricing</h2>
+                    <p>We offer competitive pricing plans, allowing you to launch and grow your online business without breaking.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="footer-row">
+        <div class="footer-column">
+            <a href="https://angadie.com" target="_blank"><img class="logo" src="images/angadi-ecom-logo.jpg" alt="angadie.com"></a>
+            <a href="mailto:info@angadie.com">Info@AngadiE.com</a>
+        </div>
+        <div class="footer-column">
+            <h2>About Us</h2>
+            <a href="https://angadie.com" target="_blank">Work Portfolio</a>
+            <a href="https://angadie.com" target="_blank">About us</a>
+            <a href="https://angadie.com"target="_blank">Team</a>
+            <a href="https://angadie.com" target="_blank">Pricing</a>
+        </div>
+        <div class="footer-column">
+            <h2>Trusted Partners</h2>
+            <a href="https://www.namecheap.com" target="_blank">NameCheap</a>
+            <a href="https://app.shiprocket.in" target="_blank">ShipRocket</a>
+            <a href="https://easy.razorpay.com" target="_blank">RazorPay</a>
+            <a href="https://www.canva.com/" target="_blank">Canva</a>
+        </div>
+        <div class="footer-column">
+            <h2>Our Address</h2>
+            <p>L-148, Sector-6, HSR Layout, Bengaluru.</p>
+            <p>Plot No-3, Abhinav Enclave, Khajaguda, Hyderabad</p>
+        </div>
+    </div>
+    <center class="copyrights">copyrights &#169; 2023 All right reserved By AngadiE.com</center>
+
+
+</body>
+</html>
